@@ -1,0 +1,22 @@
+{
+  "id": "hyprWindows",
+  "name": "Hyprland Windows",
+  "description": "Layout-independent MRU window switcher for Hyprland using the DMS launcher",
+  "version": "1.3.0",
+  "author": "Shan / ChatGPT",
+  "icon": "tab",
+  "type": "launcher",
+  "capabilities": [
+    "launcher"
+  ],
+  "component": "./HyprWindowsLauncher.qml",
+  "startupCheck": "./StartupCheck.qml",
+  "trigger": "!",
+  "requires_dms": ">=1.4.0",
+  "dependencies": [
+    "hyprctl"
+  ],
+  "permissions": [
+    "process"
+  ]
+}
